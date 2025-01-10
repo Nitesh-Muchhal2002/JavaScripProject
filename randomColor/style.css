@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 20px;
+    font-size: 20px;
+}
+
+.random-color-container{
+    display: flex;
+    gap: 10px;
+  
+}
+.hex-color-container, .rgb-color-container{
+    min-height: 100vh;
+    flex: 1;
+}
+
+.hex-button{
+    padding: 12px 20px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #3a65d9;
+    border-radius: 15px;
+}
+
+.rgb-color-container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.rgb-color-container{
+    background-color: #6accf3;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.hex-color-container{
+    background-color: #6ac567;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+.hex-color-value{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+.rgb-button{
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 17px;
+    font-weight: bold;
+    background-color: #771490;
+    border-radius: 15px;
+    color :#ffff;
+}
+.rgb-color-value{
+    font-size: 25px;
+    color:white;
+    font-weight: bold;
+    padding: 19px;
+}
+
+.hex-color-copy{
+    padding: 10px 10px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.rgb-color-copy{
+    padding: 10px 10px;
+    border-radius: 10px;
+    font-size: 20px;
+}
